@@ -1,0 +1,120 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #000000;
+    padding: 10px 60px;
+    height: 80px;
+    list-style: none;
+    font-family: "Cormorant Garamond", serif;
+
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.logo {
+    height: 55px;
+    width: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.menuLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex: 1;
+    list-style: none;
+
+}
+
+.menuLinks a,
+.menu a {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.3s ease;
+    white-space: nowrap;
+}
+
+.menuLinks a:hover,
+.menu a:hover {
+    color: #e6b800;
+    transform: translateY(-2px);
+}
+
+.header_IconSocial {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.header_IconSocial img {
+    height: 40px;
+    width: 40px;
+    transition: transform 0.3s ease;
+}
+
+.header_IconSocial img:hover {
+    transform: scale(1.2);
+}
+
+.footer_information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.footer_information_text {
+    color: #f5f5f5;
+    font-size: 26px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+    .menu {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 20px;
+        gap: 20px;
+    }
+
+    .icon,
+    .header_IconSocial {
+        display: none;
+    }
+
+    .footer_information {
+        justify-content: center;
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .footer_information_text {
+        text-align: center;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header_IconSocial {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
