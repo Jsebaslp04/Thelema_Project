@@ -1,8 +1,8 @@
 import styles from './Talleres.module.css'
-import talleres1 from '../assets/talleres1.png'
-import talleres2 from '../assets/talleres2.png'
-import talleres3 from '../assets/talleres3.png'
-import talleres4 from '../assets/talleres4.png'
+import talleres1 from '../assets/Talleres1.png'
+import talleres2 from '../assets/Talleres2.png'
+import talleres3 from '../assets/Talleres3.png'
+import talleres4 from '../assets/Talleres4.png'
 
 
 const Separator = ({ height = 50 }) => {
