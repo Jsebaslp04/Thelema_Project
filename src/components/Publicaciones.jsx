@@ -1,7 +1,7 @@
 import styles from './Publicaciones.module.css'
 import main from '../assets/main_publicaciones.png'
 import gnosis from '../assets/Gnosis_Thelema.png'
-import pharo from '../assets/pharo_nox.png'
+import pharo from '../assets/pharo_nox_img.png'
 import meditacion from '../assets/meditacion.png'
 
 const Separator = ({ height = 50 }) => {
