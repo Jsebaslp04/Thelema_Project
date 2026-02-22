@@ -36,7 +36,7 @@ function Description1() {
                 <img className={styles.description_img_main} src={service_2} alt="Imagen de un libro con una vela" />
             </div>
             <div className={styles.service_description}>
-                <h1 className={styles.service_title_description}>Entrenamiento en Magia Ritual y Teúrgia</h1>
+                <h2 className={styles.service_title_description}>Entrenamiento en Magia Ritual y Teúrgia</h2>
                 <br />
                 <p className={styles.service_text_description}><strong>Domina las fuerzas de tu propio universo.</strong> Ofrecemos formación práctica en los rituales fundamentales de la A∴A∴ y la O.T.O., adaptados para el practicante moderno. Desde el dominio del Ritual Menor del Pentagrama hasta la creación de ceremonias personalizadas de invocación y destierro. Este servicio se enfoca en el desarrollo de la disciplina mental, la visualización creativa y el uso ético del poder ritual para equilibrar el microcosmos y manifestar cambios en conformidad con la voluntad.</p>
             </div>
@@ -48,7 +48,7 @@ function Description2() {
     return (
         <div className={styles.description}>
             <div className={styles.service_description}>
-                <h1 className={styles.service_title_description}>Mentoría en Yoga y Control del Cuerpo-Mente</h1>
+                <h3 className={styles.service_title_description}>Mentoría en Yoga y Control del Cuerpo-Mente</h3>
                 <br />
                 <p className={styles.service_text_description}><strong>La base científica de la iluminación.</strong> Tal como se enseña en el Libro 4 (Liber ABA), no hay magia sin el control absoluto de la mente y el cuerpo. Ofrecemos programas de entrenamiento en Asana (postura), Pranayama (regulación de la energía vital) y Dharana (concentración profunda). Aprenderás a silenciar el ruido mental y a fortalecer tu vehículo físico, preparando el terreno para la comunicación con tu Santo Ángel Guardián y estados elevados de conciencia.</p>
             </div>
@@ -66,7 +66,7 @@ function Description3() {
                 <img className={styles.description_img_main} src={tarot_4} alt="Imagen de libro de ocultismo" />
             </div>
             <div className={styles.service_description}>
-                <h1 className={styles.service_title_description}>Análisis Simbólico y Tarot de Thoth</h1>
+                <h4 className={styles.service_title_description}>Análisis Simbólico y Tarot de Thoth</h4>
                 <br />
                 <p className={styles.service_text_description}><strong>Cartografía del alma y el destino.</strong> Utilizamos el Tarot de Thoth como una herramienta de diagnóstico psicológico y espiritual, no como una simple adivinación. Este servicio consiste en lecturas profundas que analizan las corrientes energéticas actuales de tu vida, utilizando la correspondencia de la Cábala y el Árbol de la Vida. Es una guía estratégica para resolver conflictos internos, entender ciclos kármicos y tomar decisiones alineadas con tu crecimiento espiritual.</p>
             </div>

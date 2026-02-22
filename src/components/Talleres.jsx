@@ -39,7 +39,7 @@ function Taller_2() {
     return (
         <div className={styles.description}>
             <div className={styles.service_description}>
-                <h1 className={styles.service_title_description}><strong>El Despertar del Magus: Fundamentos de Liber AL vel Legis</strong></h1>
+                <h2 className={styles.service_title_description}><strong>El Despertar del Magus: Fundamentos de Liber AL vel Legis</strong></h2>
                 <br />
                 <p className={styles.service_text_description}> Un análisis profundo de los tres capítulos del Libro de la Ley. Exploraremos la naturaleza de Nuit (el espacio infinito), Hadit (el punto central de la experiencia) y Ra-Hoor-Khuit (el Señor del Eón). Los participantes aprenderán a interpretar las metáforas del texto para aplicarlas a su propio autoconocimiento y entender por qué "Todo hombre y toda mujer es una estrella"</p>
             </div>
@@ -57,7 +57,7 @@ function Taller_3() {
                 <img className={styles.description_img_main} src={talleres4} alt="Imagen de una mujer quemando incienso" />
             </div>
             <div className={styles.service_description}>
-                <h1 className={styles.service_title_description}><strong>El Camino de la Verdadera Voluntad (Thelema en la Vida Diaria)</strong></h1>
+                <h3 className={styles.service_title_description}><strong>El Camino de la Verdadera Voluntad (Thelema en la Vida Diaria)</strong></h3>
                 <br />
                 <p className={styles.service_text_description}>
                     ¿Cómo identificar la True Will (Verdadera Voluntad) frente a los deseos caprichosos del ego? En este taller exploramos las implicaciones de "Amor es la ley, amor bajo voluntad". Analizaremos técnicas de introspección, el uso del diario mágico como herramienta de análisis de datos y cómo tomar decisiones alineadas con el propósito cósmico individual sin interferir en el camino de los demás.
